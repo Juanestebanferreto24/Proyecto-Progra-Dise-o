@@ -80,7 +80,8 @@ p {
     transition: color 0.3s ease;
 }
 
-.navbar-nav a:hover {
+.navbar-nav a:hover,
+.navbar-nav a:focus-visible {
     color: #f3a806;
 }
 
@@ -91,6 +92,7 @@ p {
     align-items: center;
     gap: 15px;
     flex-shrink: 0;
+    margin-left: auto;
 }
 
 .social-icons {
@@ -110,7 +112,6 @@ p {
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-left: auto;
     flex-shrink: 0;
 }
 
@@ -1020,10 +1021,6 @@ blockquote footer {
 
     .perfil-galeria {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .perfil-galeria img {
-        height: 180px;
     }
 
     /* Acerca de */
