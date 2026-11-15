@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Iniciar sesión | Side Of MMA</title>
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Icono de la página -->
+    <link rel="icon" href="../Imgpage/side-of-mma-icono.png">
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Iconos de redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ===== BARRA DE NAVEGACIÓN ===== -->
+
+    <header>
+        <nav class="navbar-custom" aria-label="Navegación principal">
+
+            <!-- Logo -->
+            <a href="../index.html" class="navbar-brand">
+                <img
+                    src="../Imgpage/side-of-mma-logo.png"
+                    alt="Side Of MMA"
+                >
+            </a>
+
+            <!-- Secciones principales -->
+            <div class="navbar-collapse">
+                <ul class="navbar-nav">
+
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="../publicaciones/publicaciones.html">
+                            Publicaciones
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../crear-publicación/crear.html">
+                            Crear publicación
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../perfil/perfil.html">
+                            Perfil
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../acerca-de/acerca-de.html">
+                            Acerca de
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="social-icon-wrapper">
+
+                <a
+                    href="https://www.facebook.com/"
+                    class="social-icons"
+                    aria-label="Facebook"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                </a>
+
+                <a
+                    href="https://x.com/"
+                    class="social-icons"
+                    aria-label="X"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                </a>
+
+                <a
+                    href="https://www.instagram.com/"
+                    class="social-icons"
+                    aria-label="Instagram"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                </a>
+
+            </div>
+
+            <!-- Registro e inicio de sesión -->
+            <div class="navbar-auth">
+
+                <a href="../registro/registro.html" class="btn-registro">
+                    Registrarse
+                </a>
+
+                <a
+                    href="login.html"
+                    class="btn-login"
+                    aria-current="page"
+                >
+                    Iniciar sesión
+                </a>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- ===== INICIAR SESIÓN ===== -->
+
+    <main>
+        <section class="login-section">
+
+            <h1 class="login-titulo">Iniciar sesión</h1>
+
+            <div class="login-contenedor">
+
+                <!-- Imagen izquierda -->
+                <div class="login-imagen">
+
+                    <img
+                        src="../Imgpage/Imagen-inicio-de-sesión.jpeg"
+                        alt="Entrenamiento de boxeo"
+                    >
+
+                </div>
+
+                <!-- Formulario -->
+                <div class="login-card">
+
+                    <img
+                        src="../Imgpage/side-of-mma-icono.png"
+                        alt="Side Of MMA"
+                        class="login-logo"
+                    >
+
+                    <h2>Iniciar sesión</h2>
+
+                    <p class="login-description">
+                        Bienvenido de nuevo a Side Of MMA.
+                        Ingresa tus datos para continuar.
+                    </p>
+
+                    <form id="form-login" class="login-form">
+
+                        <div class="login-group">
+
+                            <label for="login-correo">
+                                Correo electrónico
+                            </label>
+
+                            <input
+                                type="email"
+                                id="login-correo"
+                                name="correo"
+                                placeholder="ejemplo@correo.com"
+                                autocomplete="email"
+                                required
+                            >
+
+                        </div>
+
+                        <div class="login-group">
+
+                            <label for="login-contrasena">
+                                Contraseña
+                            </label>
+
+                            <input
+                                type="password"
+                                id="login-contrasena"
+                                name="contrasena"
+                                placeholder="Ingresa tu contraseña"
+                                autocomplete="current-password"
+                                required
+                            >
+
+                        </div>
+
+                        <button type="submit" class="btn-iniciar">
+                            Iniciar sesión
+                        </button>
+
+                    </form>
+
+                    <p class="login-register">
+                        ¿Todavía no tienes una cuenta?
+                        <a href="../registro/registro.html">
+                            Regístrate aquí
+                        </a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <!-- ===== PIE DE PÁGINA ===== -->
+
+    <footer class="footer-page">
+        <p>
+            &copy; 2026 Side Of MMA.
+            Todos los derechos reservados.
+        </p>
+    </footer>
+
+</body>
+</html>

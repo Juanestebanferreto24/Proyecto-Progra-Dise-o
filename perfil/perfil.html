@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Perfil | Side Of MMA</title>
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Icono de la página -->
+    <link rel="icon" href="../Imgpage/side-of-mma-icono.png">
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Iconos de redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN  -->
+
+    <header>
+        <nav class="navbar-custom" aria-label="Navegación principal">
+
+            <!-- Logo -->
+            <a href="../index.html" class="navbar-brand">
+                <img
+                    src="../Imgpage/side-of-mma-logo.png"
+                    alt="Side Of MMA"
+                >
+            </a>
+
+            <!-- Secciones principales -->
+            <div class="navbar-collapse">
+                <ul class="navbar-nav">
+
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+
+                    <li>
+                        <a href="../publicaciones/publicaciones.html">
+                            Publicaciones
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../crear-publicación/crear.html">
+                            Crear publicación
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="perfil.html" aria-current="page">
+                            Perfil
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../acerca-de/acerca.html">
+                            Acerca de
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="social-icon-wrapper">
+
+                <a
+                    href="https://www.facebook.com/"
+                    class="social-icons"
+                    aria-label="Facebook"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                </a>
+
+                <a
+                    href="https://x.com/"
+                    class="social-icons"
+                    aria-label="X"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                </a>
+
+                <a
+                    href="https://www.instagram.com/"
+                    class="social-icons"
+                    aria-label="Instagram"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                </a>
+
+            </div>
+
+            <!-- Registro e inicio de sesión -->
+            <div class="navbar-auth">
+
+                <a href="../registro/registro.html" class="btn-registro">
+                    Registrarse
+                </a>
+
+                <a href="../login/login.html" class="btn-login">
+                    Iniciar sesión
+                </a>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- ===== CONTENIDO PRINCIPAL ===== -->
+
+    <main>
+
+        <section class="perfil-section">
+
+            <!-- Información del perfil -->
+            <div class="perfil-card">
+
+                <div class="perfil-header">
+
+                    <!-- Foto de perfil -->
+                    <img
+                        src="../Imgpage/Fredsincamisa1.jpeg"
+                        alt="Foto de perfil de Fred"
+                        class="perfil-foto"
+                    >
+
+                    <!-- Nombre, usuario y estadísticas -->
+                    <div class="perfil-info">
+
+                        <h1>Fred</h1>
+
+                        <p class="perfil-usuario">
+                            @fred_mma
+                        </p>
+
+                        <div class="perfil-estadisticas">
+
+                            <!-- Publicaciones -->
+                            <div>
+                                <strong>3</strong>
+                                <span>Publicaciones</span>
+                            </div>
+
+                            <!-- Seguidores -->
+                            <div>
+                                <strong>0</strong>
+                                <span>Seguidores</span>
+                            </div>
+
+                            <!-- Seguidos -->
+                            <div>
+                                <strong>0</strong>
+                                <span>Seguidos</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Biografía -->
+                <p class="perfil-biografia">
+                    Apasionado por las artes marciales mixtas,
+                    el entrenamiento y la superación personal.
+                    Compartiendo mi progreso y experiencias en el mundo del MMA.
+                </p>
+
+                <!-- Botón de seguir -->
+                <button type="button" class="btn-seguir">
+                    Seguir
+                </button>
+
+            </div>
+
+            <!-- ===== PUBLICACIONES DEL PERFIL ===== -->
+
+            <section class="perfil-publicaciones">
+
+                <h2>Publicaciones</h2>
+
+                <div class="perfil-galeria">
+
+                    <!-- Publicación 1 -->
+                    <img
+                        src="../Imgpage/Fredsincamisa2.jpeg"
+                        alt="Fotografía de Fred"
+                        loading="lazy"
+                    >
+
+                    <!-- Publicación 2 -->
+                    <img
+                        src="../Imgpage/EquipoAAPerfil.jpeg"
+                        alt="Equipo de entrenamiento de MMA"
+                        loading="lazy"
+                    >
+
+                    <!-- Publicación 3 -->
+                    <img
+                        src="../Imgpage/FredGolpeando.png"
+                        alt="Fred practicando MMA"
+                        loading="lazy"
+                    >
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <!-- ===== PIE DE PÁGINA ===== -->
+
+    <footer class="footer-page">
+        <p>
+            &copy; 2026 Side Of MMA.
+            Todos los derechos reservados.
+        </p>
+    </footer>
+
+</body>
+</html>
