@@ -1,4 +1,17 @@
-# Proyecto-Progra-Dise-o
-Esto será el repositorio de mi proyecto de programación que es mi página web
-Pagina web de red social hecha con HTML, CSS y Bootstrap.
-Pagina web de red social hecha con HTML, CSS y Bootstrap.
+# Side Of MMA
+
+Side Of MMA es una página web dedicada a los aficionados de las artes marciales mixtas, donde pueden explorar publicaciones y conocer perfiles relacionados con este deporte.
+
+## Secciones del proyecto
+
+- Inicio
+- Publicaciones
+- Crear publicación
+- Perfil
+- Acerca de
+- Registro e inicio de sesión
+
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3
