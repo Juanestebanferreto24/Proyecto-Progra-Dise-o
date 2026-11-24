@@ -29,7 +29,7 @@ p {
     background-color: #0B0B0C;
 }
 
-/* ===== BARRA DE NAVEGACIÓN ===== */
+/*  BARRA DE NAVEGACIÓN  */
 
 .navbar-custom {
     background-color: #0B0B0C;
@@ -106,7 +106,7 @@ p {
     color: #f3a806;
 }
 
-/* ===== REGISTRO E INICIO DE SESIÓN ===== */
+/*  REGISTRO E INICIO DE SESIÓN  */
 
 .navbar-auth {
     display: flex;
@@ -143,7 +143,7 @@ p {
     color: #0B0B0C;
 }
 
-/* ===== PÁGINA DE INICIO ===== */
+/*  PÁGINA DE INICIO  */
 
 .home-section {
     padding: 30px 20px 100px;
@@ -171,7 +171,40 @@ blockquote footer {
     color: #f1c40f;
 }
 
-/* ===PUBLICACIONES ===== */
+/*  PUBLICACIONES */
+
+/* Filtro de publicaciones*/
+
+.caja-filtro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+    background-color: #1c1c1c;
+    border: 1px solid #e8a317;
+    border-radius: 10px;
+
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.caja-filtro label {
+    color: #e8a317;
+    font-weight: bold;
+}
+
+.caja-filtro select {
+    background-color: #111;
+    color: white;
+    border: 1px solid #e8a317;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
 
 #publicaciones {
     padding: 50px 20px 90px;
@@ -336,8 +369,80 @@ blockquote footer {
     font-size: 14px;
 }
 
+/* Botón eliminar */
 
-/* ===== CREAR PUBLICACIÓN ===== */
+.btn-eliminar {
+    background-color: #a82020;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.btn-eliminar:hover {
+    background-color: #d32f2f;
+}
+
+.publicacion-acciones {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.publicacion-acciones .btn-eliminar {
+    margin-top: 0;
+}
+
+.publicacion-detalles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Buscador de publicaciones */
+
+.caja-buscador {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.caja-buscador input {
+    width: 100%;
+    padding: 12px;
+    background-color: #1c1c1c;
+    color: white;
+    border: 1px solid #e8a317;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.caja-buscador input:focus {
+    outline: none;
+    border-color: #ffc247;
+}
+
+/* Bóton de limpiar búsqueda */
+
+#limpiarBusqueda {
+    background-color: #e8a317;
+    color: #111;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#limpiarBusqueda:hover {
+    background-color: #ffc247;
+}
+
+/* CREAR PUBLICACIÓN*/
 
 .crear-section {
     padding: 50px 20px 90px;

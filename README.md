@@ -1,17 +1,33 @@
-# Side Of MMA
+Side Of MMA es una página web enfocada en las artes marciales mixtas (MMA). El objetivo del proyecto es crear un espacio donde los usuarios puedan compartir publicaciones, entrenamientos, noticias y experiencias relacionadas con este deporte.
 
-Side Of MMA es una página web dedicada a los aficionados de las artes marciales mixtas, donde pueden explorar publicaciones y conocer perfiles relacionados con este deporte.
+--Tecnologías utilizadas--
 
-## Secciones del proyecto
+HTML: estructura de las páginas.
 
-- Inicio
-- Publicaciones
-- Crear publicación
-- Perfil
-- Acerca de
-- Registro e inicio de sesión
+CSS: diseño y estilos.
 
-## Tecnologías utilizadas
+JavaScript: funcionamiento e interacción con las publicaciones.
 
-- HTML5
-- CSS3
+--Funcionalidades--
+
+Crear y mostrar publicaciones.
+
+Dar y quitar Me gusta.
+
+Eliminar publicaciones creadas.
+
+Filtrar publicaciones por categoría.
+
+Buscar publicaciones por nombre de usuario.
+
+Limpiar la búsqueda.
+
+Guardar publicaciones en el navegador mediante localStorage.
+
+--Secciones--
+
+El sitio cuenta con una página principal y secciones de publicaciones, crear publicación, perfil, acerca de, inicio de sesión y registro.
+
+--Autor--
+
+Proyecto realizado por Juanesteban Ferreto para la especialidad de Desarrollo Web 10-4.

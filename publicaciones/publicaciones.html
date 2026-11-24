@@ -120,21 +120,51 @@
         </nav>
     </header>
 
-    <!-- ===== PUBLICACIONES ===== -->
+   <!-- ===== PUBLICACIONES ===== -->
 
-    <main>
-        <section id="publicaciones">
+<main>
+    <section id="publicaciones">
 
-            <h1>Publicaciones</h1>
+        <h1>Publicaciones</h1>
 
-            <p class="publicaciones-descripcion">
-                Descubre las experiencias, entrenamientos y noticias
-                que comparte nuestra comunidad de MMA.
-            </p>
+        <p class="publicaciones-descripcion">
+            Descubre las experiencias, entrenamientos y noticias
+            que comparte nuestra comunidad de MMA.
+        </p>
 
-            <div id="listaPublicaciones" class="lista-publicaciones">
 
-                <!-- ===== PUBLICACIÓN 1 ===== -->
+      <div class="caja-buscador">
+            <input
+             type="text"
+             id="buscarPublicacion"
+             placeholder="Buscar por usuario..."
+             >
+
+             <button type="button" id="limpiarBusqueda">
+              Limpiar búsqueda
+             </button>
+      </div>
+
+
+        <!-- Filtro de categorías -->
+        <div class="caja-filtro">
+
+            <label for="filtroCategoria">Filtrar por categoría:</label>
+
+            <select id="filtroCategoria">
+                <option value="Todas">Todas</option>
+                <option value="Entrenamiento">Entrenamiento</option>
+                <option value="Personal">Personal</option>
+                <option value="Noticias">Noticias</option>
+                <option value="Eventos">Eventos</option>
+            </select>
+
+        </div>
+
+        <!-- Contenedor de publicaciones -->
+        <div id="listaPublicaciones" class="lista-publicaciones">
+
+            <!-- PUBLICACIÓN 1 -->
 
                 <article class="publicacion">
 
@@ -197,7 +227,7 @@
 
                 </article>
 
-                <!-- ===== PUBLICACIÓN 2 ===== -->
+                <!-- PUBLICACIÓN 2  -->
 
                 <article class="publicacion">
 
@@ -260,7 +290,7 @@
 
                 </article>
 
-                <!-- ===== PUBLICACIÓN 3 ===== -->
+                <!-- PUBLICACIÓN 3 -->
 
                 <article class="publicacion">
 
